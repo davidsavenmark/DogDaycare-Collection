@@ -6,7 +6,7 @@ class BreedImage extends Component{
     render(){
         return(
             <div className="image-container">
-                <img className="imgage-card"alt="dog"/>
+                <img className="image-card"alt="dog"/>
             </div>
         );
     }

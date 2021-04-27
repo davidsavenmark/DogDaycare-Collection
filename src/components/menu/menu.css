@@ -5,7 +5,7 @@
     width: 100vw;
     height: 100vh;
     z-index: 1;
-    background: rgba(4,37,0.85);
+    background: rgba(4,37,41,0.85);
     color: white;
 }
 .menu-logo{
@@ -22,6 +22,22 @@
     font-size: 20px;
     text-align: center;
     margin: 7% auto;
+}
+.menu-essentialfoods,
+.menu-instagram{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.menu-essentialfoods:hover,
+.menu-instagram:hover{
+    color: #d4bf91;
+    transform: scale(1.1);
 }
 .menu-container.opened{
     display: block;
@@ -80,10 +96,24 @@ transform: translate3d(-50%, -50%, 0);
     .menu-logo{
         width: 50%
     }
-    
+    .menu-essentialfoods,
+    .menu-instagram{
+        position: absolute;
+        margin-left: 12%;
+    }
+    .menu-essentialfoods{
+        bottom: 14%;
+    }
+    .menu-instagram{
+        bottom: 7%;
+    }  
 }
 @media/*XL desktop*/(min-width: 1025px){
     .menu-title{
         font-size: 30px;
+    }
+    .menu-essentialfoods,
+    .menu-instagram{
+        font-size: 20px;
     }
 }
