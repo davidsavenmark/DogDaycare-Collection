@@ -52,9 +52,13 @@ class App extends Component {
                 <Menu/>
                 <Select dogsList={this.state.dogsList}onSelect={this.selectHandler}isError={this.state.error}/>
                 <BreedImage breed={this.state.selectedDog}/>
+
             </div>
         );
     }
 }
 
+
+
 export default App;
+
