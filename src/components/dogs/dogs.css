@@ -1,1 +1,82 @@
 
+body{
+
+    background: linear-gradient(to right, #27b070,#8ecdff);
+    
+  }
+  .dog-container{
+    position: absolute;
+    height: 200px;
+    width: 250px;
+    border: 2px solid 'rgba(52, 52, 52, 0.8)';
+    border-radius: 2px;
+    right: 50%;
+    top: 25%;
+    transform: translateX(50%);
+    text-align: center;
+  }
+  .jumbotron {
+    margin: 1rem auto;
+    background:'rgba(52, 52, 52, 0.8)';
+    border-radius: 1px;
+    text-align: left;
+    width: 400px;
+    padding-left: 20px;
+    height: 200x;
+    text-decoration: none;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 45%;
+  }
+  .our-dogs {
+      color:rgb(43, 122, 226);
+      text-align: center;
+      margin: 15.5% auto;
+      
+  }
+  
+  .dog-title{
+    color:gold;
+    font-size: 30px;
+    text-decoration: none;
+  }
+  .about-button{
+    color:blue;
+    font-size: 20px;
+    border: 'rgba(52, 52, 52, 0.8)';
+    background-color: 'rgba(52, 52, 52, 0.8)';
+
+  }
+
+  
+  .panel h1 {
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+  }
+  
+  .panel p {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .dog-image {
+    position: absolute;
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  .card {
+    margin: 15rem auto;
+  background: white;
+  border-radius: 3px;
+  text-align: left;
+  text-decoration: none;
+  width: 700px;
+  height: 500px;
+  
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}

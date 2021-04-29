@@ -17,12 +17,13 @@ class App extends Component {
     render(){
         
         return ( 
-            <Router>
+            <Router basename={process.env.PUBLIC_URL}>
             <div className="App">
                 <main>
                     <Switch>
                     <Route path="/" exact><Menu/></Route>
                     <Route path="/Dogs"><Dogs/></Route>
+                    <Route exact path="/dog/:id" component={Dogs}/>
                     </Switch>
                     
                 
