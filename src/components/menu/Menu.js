@@ -1,6 +1,7 @@
 import React from 'react';
 import './menu.css';
 import logo from './logo.png';
+import {Link} from "react-router-dom";
 
 
 
@@ -26,6 +27,7 @@ const Menu =()=>{
                 <div className="menu-logo"><img className="menu-logo-img"src={logo}alt="logo"/></div>     
                 <div className="menu-title">Dailydog</div>
                 <div className="menu-text">We look out for your dog!</div>
+                <Link to="/Dogs"><button className="menu-button">The Dogs</button></Link>
                 <a className="menu-essentialfoods"href="https://www.essentialfoods.com/"target="_blank">Essential Foods</a>
                 <a className="menu-instagram"href="https://www.instagram.com/iccotheshihtzu/"target="_blank">iccotheshihtzu</a>
             </div>

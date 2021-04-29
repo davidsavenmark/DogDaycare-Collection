@@ -30,7 +30,26 @@ margin: 7% auto;
 position: static;
 transition: all 0.5s;
 
+
 }
+.menu-button {
+    background-color: rgba(255,255,255,0);
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    font-size: 18px;
+    color:#0a6e50;
+    cursor: pointer;
+    transition: all 0.5s;
+    padding:0%;
+    
+  }
+  .menu-button:hover{
+    color:blue;
+    transform: scale(1.1);
+}
+
+
 .menu-essentialfoods,
 .menu-instagram{
     text-align: center;
@@ -38,13 +57,13 @@ transition: all 0.5s;
     display: block;
     font-size: 8px;
     text-decoration: none;
-    color: blue;
+    color:#0a6e50;
     cursor: pointer;
     transition: all 0.5s;
 }
 .menu-essentialfoods:hover,
 .menu-instagram:hover{
-    color: #d4bf91;
+    color: blue;
     transform: scale(1.1);
 }
 .menu-container.opened{

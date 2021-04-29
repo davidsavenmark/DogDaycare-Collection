@@ -1,6 +1,10 @@
 import React, { Component } from 'react'
 import './App.css';
+import './components/dogs/dogs.css'
 import Menu from './components/menu/Menu';
+import Dogs from './components/dogs/Dogs';
+import { Route, BrowserRouter as Router, Switch } from "react-router-dom"
+
 
 
 
@@ -11,11 +15,24 @@ class App extends Component {
     }
     
     render(){
-        console.log(this.state.selectedDog);
+        
         return ( 
+            <Router>
             <div className="App">
-                <Menu/>
+                <main>
+                    <Switch>
+                    <Route path="/" exact><Menu/></Route>
+                    <Route path="/Dogs"><Dogs/></Route>
+                    </Switch>
+                    
+                
+                
+                
+                </main>
+
+                
             </div>
+            </Router>
         );
     }
 }
