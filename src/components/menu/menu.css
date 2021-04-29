@@ -6,7 +6,7 @@
     height: 100vh;
     z-index: 1;
     background: rgba(4,37,410.85);
-    color: white;
+    color: gold;
 }
 .menu-logo{
     width: 150px;
@@ -38,7 +38,7 @@ transition: all 0.5s;
     display: block;
     font-size: 8px;
     text-decoration: none;
-    color: white;
+    color: blue;
     cursor: pointer;
     transition: all 0.5s;
 }
