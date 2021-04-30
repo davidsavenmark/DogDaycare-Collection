@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dailydog/static/css/main.ee2f2814.chunk.css",
+    "main.css": "/dailydog/static/css/main.b2b0a488.chunk.css",
     "main.js": "/dailydog/static/js/main.4414ab3d.chunk.js",
     "main.js.map": "/dailydog/static/js/main.4414ab3d.chunk.js.map",
     "runtime-main.js": "/dailydog/static/js/runtime-main.754cd84b.js",
@@ -10,14 +10,14 @@
     "static/js/3.5f5b79d3.chunk.js": "/dailydog/static/js/3.5f5b79d3.chunk.js",
     "static/js/3.5f5b79d3.chunk.js.map": "/dailydog/static/js/3.5f5b79d3.chunk.js.map",
     "index.html": "/dailydog/index.html",
-    "static/css/main.ee2f2814.chunk.css.map": "/dailydog/static/css/main.ee2f2814.chunk.css.map",
+    "static/css/main.b2b0a488.chunk.css.map": "/dailydog/static/css/main.b2b0a488.chunk.css.map",
     "static/js/2.6ffc7347.chunk.js.LICENSE.txt": "/dailydog/static/js/2.6ffc7347.chunk.js.LICENSE.txt",
     "static/media/App.css": "/dailydog/static/media/background2.b4736575.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.754cd84b.js",
     "static/js/2.6ffc7347.chunk.js",
-    "static/css/main.ee2f2814.chunk.css",
+    "static/css/main.b2b0a488.chunk.css",
     "static/js/main.4414ab3d.chunk.js"
   ]
 }
