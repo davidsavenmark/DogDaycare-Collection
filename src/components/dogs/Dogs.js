@@ -36,7 +36,7 @@ class Dogs extends Component {
             <img src={user.img} className="image-card" alt={`${user.name} img`} />
             <div className="card-body">
               <div className="dog-title">{user.name} </div>
-              <Link to="/Register"><button className="about-button">About</button></Link>
+              <Link href="#" className="about-button" to={"/DogInfo/"+user.chipNumber}>About</Link>
               
             </div>
             </Link>

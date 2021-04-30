@@ -1,18 +1,15 @@
 import React, { Component } from 'react'
 import './App.css';
-import './components/dogs/dogs.css'
 import Menu from './components/menu/Menu';
 import Dogs from './components/dogs/Dogs';
-import { Route, BrowserRouter as Router, Switch } from "react-router-dom"
+import DogInfo from './components/dogInfo/DogInfo';
+import { Route, HashRouter as Router, Link, Switch } from "react-router-dom"
 
 
 
 
 class App extends Component {
-    state= {
-        
-
-    }
+    
     
     render(){
         
@@ -24,6 +21,10 @@ class App extends Component {
                     <Route path="/" exact><Menu/></Route>
                     <Route path="/Dogs"><Dogs/></Route>
                     <Route exact path="/dog/:id" component={Dogs}/>
+                    <Route path="/DogInfo/:chipNumber"><DogInfo/></Route>
+                    
+                    
+                    
                     </Switch>
                     
                 

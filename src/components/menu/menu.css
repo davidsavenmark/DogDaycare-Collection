@@ -7,6 +7,7 @@
     z-index: 1;
     background: rgba(4,37,410.85);
     color: gold;
+    
 }
 .menu-logo{
     width: 150px;
@@ -42,6 +43,7 @@ transition: all 0.5s;
     cursor: pointer;
     transition: all 0.5s;
     padding:0%;
+    text-decoration: none;
     
   }
   .menu-button:hover{
