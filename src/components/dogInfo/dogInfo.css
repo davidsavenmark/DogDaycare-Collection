@@ -12,6 +12,10 @@
 .card-body{
   background: linear-gradient(to right, #27b070,#8ecdff);
 }
+.card-img-top{
+  width: 500px;
+  height: 400px;
+}
 
 .card-Name{
   color: gold;
