@@ -7,6 +7,7 @@
     z-index: 1;
     background: rgba(4,37,410.85);
     color: gold;
+    text-decoration: none;
     
 }
 .menu-logo{
@@ -30,6 +31,7 @@ text-align: center;
 margin: 7% auto;
 position: static;
 transition: all 0.5s;
+text-decoration: none;
 
 
 }

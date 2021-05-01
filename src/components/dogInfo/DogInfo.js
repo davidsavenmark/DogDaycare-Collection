@@ -29,7 +29,7 @@ class DogInfo extends Component {
       return(
         <div className="container">
           <div className="jumbotron">
-          <h1 className="display-1">Dailydog: </h1>
+          <h1 className="display-1">Dailydog </h1>
           </div>
           <div className="users">
 
@@ -44,8 +44,8 @@ class DogInfo extends Component {
               <div className="card" key={user.chipNumber}>
               <img src={user.img} className="card-img-top" alt={`${user.name} img`} />
               <div className="card-body">
-                <h5 className="card-Name">{user.name}</h5>
-                <h5 className="card-DogsAge">{user.age}</h5>
+                <h5 className="card-Name">Name: {user.name}</h5>
+                <h5 className="card-DogsAge">Age: {user.age}</h5>
                 <h5 className="card-Sex">Sex: {user.sex}</h5>
                 <h5 className="card-Breed">Breed: {user.breed} </h5>
                 <p className="card-OwnersName">Owners name is: {user.owner.name} {user.owner.lastName}</p>

@@ -1,17 +1,16 @@
 
 body{
 
-    background: linear-gradient(to right, #27b070,#8ecdff);
+    background: linear-gradient(to right, #15ba6d,#8ee7ff);
     
   }
   .dog-container{
     position: absolute;
-    height: 200px;
-    width: 250px;
-    
-    border-radius: 2px;
+    height: 0px;
+    width: 0px;
+    border: 2px solid 'rgba(52, 52, 52, 0.8)';
     right: 50%;
-    top: 25%;
+    top: 77%;
     transform: translateX(50%);
     text-align: center;
   }
@@ -26,13 +25,12 @@ body{
     text-decoration: none;
     box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    margin-top: 45%;
   }
   .our-dogs {
       color:rgb(43, 122, 226);
       text-align: center;
-      margin: 15.5% auto;
-      
+      margin: 20% auto;
+      top: 50%;
   }
   
   .dog-title{
@@ -41,25 +39,15 @@ body{
     text-decoration: none;
   }
   .about-button{
-    color:blue;
+    color:gold;
     font-size: 20px;
     border: 'rgba(52, 52, 52, 0.8)';
     background-color: 'rgba(52, 52, 52, 0.8)';
+    text-decoration: none;
 
   }
-
   
-  .panel h1 {
-    color: rgba(0, 0, 0, 0.8);
-    font-weight: bold;
-    padding: 0.4em 0;
-    font-size: 2em;
-  }
   
-  .panel p {
-    font-size: 0.9em;
-    color: rgba(0, 0, 0, 0.5);
-  }
   .dog-image {
     position: absolute;
     display: block;
@@ -68,9 +56,9 @@ body{
     height: 100%;
     box-sizing: border-box;
   }
-  .card {
+  .card-dogs {
     margin: 15rem auto;
-  background: white;
+  background:'rgba(52, 52, 52, 0.8)';
   border-radius: 3px;
   text-align: left;
   text-decoration: none;
@@ -79,4 +67,8 @@ body{
   
   box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
   z-index: 1;
+}
+.card-body{
+    width: 500px;
+    height: fit-content;
 }

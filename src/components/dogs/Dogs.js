@@ -32,11 +32,11 @@ class Dogs extends Component {
         </div>
         <div className="users">
           {names.map((user) => (
-            <Link className="card" key={user.chipNumber}>
+            <Link className="card-dogs" key={user.chipNumber}>
             <img src={user.img} className="image-card" alt={`${user.name} img`} />
             <div className="card-body">
               <div className="dog-title">{user.name} </div>
-              <Link href="#" className="about-button" to={"/DogInfo/"+user.chipNumber}>About</Link>
+              <Link href="#" className="about-button" to={"/DogInfo/"+user.chipNumber}>About this dog</Link>
               
             </div>
             </Link>

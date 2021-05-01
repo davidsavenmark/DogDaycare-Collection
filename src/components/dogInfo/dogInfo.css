@@ -1,3 +1,43 @@
-.background{
-  color: black;
+.card {
+  background: rgb(43, 226, 153);
+  height: fit-content;
+  width: fit-content;
+  position: absolute;
+}
+.display-1{
+  width: fit-content;
+  height: fit-content;
+}
+
+.card-body{
+  background: linear-gradient(to right, #27b070,#8ecdff);
+}
+
+.card-Name{
+  color: gold;
+
+  font-family: "Nunito", cursive;
+}  
+
+.card-DogsAge{
+
+  color: gold;
+  font-family: "Nunito", cursive;
+
+}
+
+.card-Sex{
+
+  color: gold;
+  font-family: "Nunito", cursive;
+}
+
+.card-Breed{
+  color: gold;
+
+  font-family: "Nunito", cursive;
+
+
+
+
 }
